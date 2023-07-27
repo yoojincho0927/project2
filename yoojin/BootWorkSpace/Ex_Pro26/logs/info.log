@@ -1,0 +1,1763 @@
+[23-07-27 14:58:22] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 10828 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 14:58:22] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 14:58:22] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\human\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.9.0.0\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/human/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.9.0.0/oraclepki.jar
+[23-07-27 14:58:22] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[23-07-27 14:58:22] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[23-07-27 14:58:23] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 14:58:23] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 14:58:23] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 14:58:23] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 14:58:23] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 14:58:23] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 996 ms
+[23-07-27 14:58:23] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 14:58:23] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[23-07-27 15:12:25] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 1080 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:12:25] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:12:25] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\human\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.9.0.0\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/human/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.9.0.0/oraclepki.jar
+[23-07-27 15:12:25] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[23-07-27 15:12:25] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[23-07-27 15:12:26] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:12:26] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:12:26] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:12:26] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:12:26] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:12:26] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1004 ms
+[23-07-27 15:12:26] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:12:26] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:12:26] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:12:26] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:12:26] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 2.007 seconds (process running for 2.805)
+[23-07-27 15:12:34] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 15:12:34] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 15:12:34] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[23-07-27 15:14:15] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[23-07-27 15:14:15] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:14:15] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:14:15] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 15:14:15] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:14:24] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:14:24] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:14:24] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\human\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.9.0.0\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/human/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.9.0.0/oraclepki.jar
+[23-07-27 15:14:24] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[23-07-27 15:14:24] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[23-07-27 15:14:25] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:14:25] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:14:25] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:14:25] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:14:25] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:14:25] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 960 ms
+[23-07-27 15:14:25] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:14:25] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:14:25] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:14:25] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:14:25] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 1.931 seconds (process running for 2.733)
+[23-07-27 15:14:33] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 15:14:33] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 15:14:33] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[23-07-27 15:16:39] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:16:39] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:16:39] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:16:39] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 15:16:39] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:16:39] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:16:40] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:16:40] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:16:40] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:16:40] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:16:40] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:16:40] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:16:40] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:16:40] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 240 ms
+[23-07-27 15:16:40] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:16:40] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:16:40] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:16:40] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:16:40] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.406 seconds (process running for 137.45)
+[23-07-27 15:16:40] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:16:46] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 15:16:46] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 15:16:46] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[23-07-27 15:16:46] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection opened. {executed in 192ms} 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.new Connection returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.getNetworkTimeout() returned 0
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.isReadOnly() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.isValid(1) returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.getTransactionIsolation() returned 2
+[23-07-27 15:16:46] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@1a184c1a
+[23-07-27 15:16:46] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@21e1dd71
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 2. Connection opened. {executed in 21ms} 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 2. Connection.new Connection returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 2. Connection.isReadOnly() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 2. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. select sysdate from dual  {executed in 52 ms}
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@721a8e34
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@4330e0c1
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.getString(SYSDATE) returned 2023-07-27 15:16:46
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 
+|--------------------|
+|sysdate             |
+|--------------------|
+|2023-07-27 15:16:46 |
+|--------------------|
+
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.close() returned void
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@2cafb4f3
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2515f05
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. select sysdate from dual  {executed in 0 ms}
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@62f1b931
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@1454c604
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.getTimestamp(SYSDATE) returned 2023-07-27 15:16:46.0
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|sysdate               |
+|----------------------|
+|2023-07-27 15:16:46.0 |
+|----------------------|
+
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.close() returned void
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@2cafb4f3
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.prepareStatement(select sysdate as today from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4502275
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. select sysdate as today from dual  {executed in 1 ms}
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 3. Connection opened. {executed in 23ms} 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 3. Connection.new Connection returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 3. Connection.isReadOnly() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6b872bff
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 3. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@59d1b46d
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.getTimestamp(TODAY) returned 2023-07-27 15:16:46.0
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|today                 |
+|----------------------|
+|2023-07-27 15:16:46.0 |
+|----------------------|
+
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. ResultSet.close() returned void
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@2cafb4f3
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 4. Connection opened. {executed in 25ms} 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 4. Connection.new Connection returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 4. Connection.isReadOnly() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 4. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 5. Connection opened. {executed in 27ms} 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 5. Connection.new Connection returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 5. Connection.isReadOnly() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 5. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 6. Connection opened. {executed in 24ms} 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 6. Connection.new Connection returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 6. Connection.isReadOnly() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 6. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 7. Connection opened. {executed in 21ms} 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 7. Connection.new Connection returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 7. Connection.isReadOnly() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 7. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 8. Connection opened. {executed in 22ms} 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 8. Connection.new Connection returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 8. Connection.isReadOnly() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 8. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 9. Connection opened. {executed in 20ms} 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 9. Connection.new Connection returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 9. Connection.isReadOnly() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 9. Connection.getAutoCommit() returned true
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 10. Connection opened. {executed in 20ms} 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 10. Connection.new Connection returned 
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 10. Connection.isReadOnly() returned false
+[23-07-27 15:16:46] INFO  log4jdbc.log4j2 - 10. Connection.getAutoCommit() returned true
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.isValid(5) returned true
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@30ec5675
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. select sysdate from dual  {executed in 1 ms}
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7a5ef5e9
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@196e5c0
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned true
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.getString(SYSDATE) returned 2023-07-27 15:20:21
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 
+|--------------------|
+|sysdate             |
+|--------------------|
+|2023-07-27 15:20:21 |
+|--------------------|
+
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned false
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.close() returned void
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@2cafb4f3
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@50c3a93a
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. select sysdate from dual  {executed in 1 ms}
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@5dbfff76
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@6b31a9e4
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned true
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.getTimestamp(SYSDATE) returned 2023-07-27 15:20:21.0
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|sysdate               |
+|----------------------|
+|2023-07-27 15:20:21.0 |
+|----------------------|
+
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned false
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.close() returned void
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@2cafb4f3
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.prepareStatement(select sysdate as today from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@548d1548
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. select sysdate as today from dual  {executed in 1 ms}
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@766b14e0
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@10f3fd40
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned true
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.getTimestamp(TODAY) returned 2023-07-27 15:20:21.0
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|today                 |
+|----------------------|
+|2023-07-27 15:20:21.0 |
+|----------------------|
+
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned false
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. ResultSet.close() returned void
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@2cafb4f3
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+[23-07-27 15:20:21] INFO  log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+[23-07-27 15:22:09] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[23-07-27 15:22:09] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:22:09] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:22:09] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 15:22:09] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:22:09] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:22:09] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 1. Connection closed. {executed in 3ms} 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 1. Connection.close() returned 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 2. Connection closed. {executed in 1ms} 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 2. Connection.close() returned 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 3. Connection closed. {executed in 1ms} 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 3. Connection.close() returned 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 4. Connection closed. {executed in 1ms} 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 4. Connection.close() returned 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 5. Connection closed. {executed in 1ms} 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 5. Connection.close() returned 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 6. Connection closed. {executed in 1ms} 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 6. Connection.close() returned 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 7. Connection closed. {executed in 1ms} 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 7. Connection.close() returned 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 8. Connection closed. {executed in 1ms} 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 8. Connection.close() returned 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 9. Connection closed. {executed in 1ms} 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 9. Connection.close() returned 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 10. Connection closed. {executed in 1ms} 
+[23-07-27 15:22:09] INFO  log4jdbc.log4j2 - 10. Connection.close() returned 
+[23-07-27 15:22:09] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[23-07-27 15:22:10] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:22:10] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:22:10] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:22:10] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:22:10] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:22:10] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:22:10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:22:10] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 261 ms
+[23-07-27 15:22:10] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:22:10] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[23-07-27 15:23:05] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:23:05] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:23:05] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:23:05] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:23:05] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:23:05] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:23:05] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:23:05] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 201 ms
+[23-07-27 15:23:05] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:23:05] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:23:05] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:23:05] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:23:05] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.398 seconds (process running for 522.499)
+[23-07-27 15:23:05] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:23:57] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:23:57] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:23:57] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:23:57] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:23:57] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:23:57] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:23:57] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:23:57] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:23:57] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:23:57] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:23:57] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:23:57] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:23:57] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 193 ms
+[23-07-27 15:23:57] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:23:57] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[23-07-27 15:23:58] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:23:58] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:23:59] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:23:59] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:23:59] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:23:59] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:23:59] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:23:59] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 188 ms
+[23-07-27 15:23:59] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:23:59] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[23-07-27 15:24:12] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:24:12] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:24:13] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:24:13] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:24:13] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:24:13] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:24:13] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:24:13] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 200 ms
+[23-07-27 15:24:13] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:24:13] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[23-07-27 15:24:33] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:24:33] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:24:33] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:24:33] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:24:33] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:24:33] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:24:33] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:24:33] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 184 ms
+[23-07-27 15:24:33] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:24:33] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[23-07-27 15:25:48] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:25:48] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:25:48] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:25:48] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:25:48] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:25:48] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:25:48] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:25:48] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 206 ms
+[23-07-27 15:25:48] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:25:48] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:25:48] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:25:48] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:25:48] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.362 seconds (process running for 685.733)
+[23-07-27 15:25:48] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:25:55] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 15:25:55] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 15:25:55] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[23-07-27 15:25:55] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection opened. {executed in 21ms} 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.new Connection returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.getNetworkTimeout() returned 0
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.isReadOnly() returned false
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.getAutoCommit() returned true
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.isValid(1) returned true
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.getTransactionIsolation() returned 2
+[23-07-27 15:25:55] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@2dc9c8a
+[23-07-27 15:25:55] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.getAutoCommit() returned true
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1a1fecb5
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. select sysdate from dual  {executed in 0 ms}
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.execute() returned true
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.new ResultSet returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6369b9eb
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@1f0b58b
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.getType() returned 1003
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.isClosed() returned false
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.next() returned true
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.getString(SYSDATE) returned 2023-07-27 15:25:55
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.isClosed() returned false
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 
+|--------------------|
+|sysdate             |
+|--------------------|
+|2023-07-27 15:25:55 |
+|--------------------|
+
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.next() returned false
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.close() returned void
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@4d0518b2
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.close() returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.clearWarnings() returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.getAutoCommit() returned true
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5a5e4d1a
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. select sysdate from dual  {executed in 1 ms}
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.execute() returned true
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.new ResultSet returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@1a14b16c
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@344f3858
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.getType() returned 1003
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.isClosed() returned false
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.next() returned true
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.getTimestamp(SYSDATE) returned 2023-07-27 15:25:55.0
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.isClosed() returned false
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|sysdate               |
+|----------------------|
+|2023-07-27 15:25:55.0 |
+|----------------------|
+
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.next() returned false
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.close() returned void
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@4d0518b2
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.close() returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.clearWarnings() returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.getAutoCommit() returned true
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.prepareStatement(select sysdate as today from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@7974c741
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. select sysdate as today from dual  {executed in 1 ms}
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.execute() returned true
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.new ResultSet returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@46d496d2
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@b14fba8
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.getType() returned 1003
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.isClosed() returned false
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.next() returned true
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.getTimestamp(TODAY) returned 2023-07-27 15:25:55.0
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.isClosed() returned false
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|today                 |
+|----------------------|
+|2023-07-27 15:25:55.0 |
+|----------------------|
+
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.next() returned false
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. ResultSet.close() returned void
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@4d0518b2
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. PreparedStatement.close() returned 
+[23-07-27 15:25:55] INFO  log4jdbc.log4j2 - 11. Connection.clearWarnings() returned 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 12. Connection opened. {executed in 20ms} 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 12. Connection.new Connection returned 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 12. Connection.isReadOnly() returned false
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 12. Connection.getAutoCommit() returned true
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 13. Connection opened. {executed in 18ms} 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 13. Connection.new Connection returned 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 13. Connection.isReadOnly() returned false
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 13. Connection.getAutoCommit() returned true
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 14. Connection opened. {executed in 19ms} 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 14. Connection.new Connection returned 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 14. Connection.isReadOnly() returned false
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 14. Connection.getAutoCommit() returned true
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 15. Connection opened. {executed in 18ms} 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 15. Connection.new Connection returned 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 15. Connection.isReadOnly() returned false
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 15. Connection.getAutoCommit() returned true
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 16. Connection opened. {executed in 19ms} 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 16. Connection.new Connection returned 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 16. Connection.isReadOnly() returned false
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 16. Connection.getAutoCommit() returned true
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 17. Connection opened. {executed in 18ms} 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 17. Connection.new Connection returned 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 17. Connection.isReadOnly() returned false
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 17. Connection.getAutoCommit() returned true
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 18. Connection opened. {executed in 19ms} 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 18. Connection.new Connection returned 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 18. Connection.isReadOnly() returned false
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 18. Connection.getAutoCommit() returned true
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 19. Connection opened. {executed in 19ms} 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 19. Connection.new Connection returned 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 19. Connection.isReadOnly() returned false
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 19. Connection.getAutoCommit() returned true
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 20. Connection opened. {executed in 19ms} 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 20. Connection.new Connection returned 
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 20. Connection.isReadOnly() returned false
+[23-07-27 15:25:56] INFO  log4jdbc.log4j2 - 20. Connection.getAutoCommit() returned true
+[23-07-27 15:26:15] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:26:15] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:26:15] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:26:15] INFO  o.a.c.c.C.[.[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 15:26:15] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:26:15] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:26:15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 11. Connection closed. {executed in 1ms} 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 11. Connection.close() returned 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 12. Connection closed. {executed in 0ms} 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 12. Connection.close() returned 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 13. Connection closed. {executed in 1ms} 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 13. Connection.close() returned 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 14. Connection closed. {executed in 1ms} 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 14. Connection.close() returned 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 15. Connection closed. {executed in 1ms} 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 15. Connection.close() returned 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 16. Connection closed. {executed in 1ms} 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 16. Connection.close() returned 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 17. Connection closed. {executed in 1ms} 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 17. Connection.close() returned 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 18. Connection closed. {executed in 1ms} 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 18. Connection.close() returned 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 19. Connection closed. {executed in 1ms} 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 19. Connection.close() returned 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 20. Connection closed. {executed in 1ms} 
+[23-07-27 15:26:15] INFO  log4jdbc.log4j2 - 20. Connection.close() returned 
+[23-07-27 15:26:15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[23-07-27 15:26:15] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:26:15] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:26:15] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:26:15] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:26:15] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:26:15] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:26:15] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:26:15] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 185 ms
+[23-07-27 15:26:16] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:26:16] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:26:16] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:26:16] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:26:16] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.317 seconds (process running for 713.123)
+[23-07-27 15:26:16] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:26:40] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:26:40] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:26:40] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:26:40] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:26:40] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:26:40] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:26:40] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:26:40] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:26:40] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:26:40] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:26:40] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:26:40] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:26:40] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 191 ms
+[23-07-27 15:26:40] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:26:40] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[23-07-27 15:26:47] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:26:47] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:26:48] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:26:48] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:26:48] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:26:48] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:26:48] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:26:48] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 185 ms
+[23-07-27 15:26:48] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:26:48] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:26:48] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:26:48] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:26:48] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.334 seconds (process running for 745.303)
+[23-07-27 15:26:48] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:27:40] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[23-07-27 15:27:40] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:27:40] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:27:40] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:27:40] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:27:40] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:27:40] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:27:41] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:27:41] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:27:41] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:27:41] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:27:41] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:27:41] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 231 ms
+[23-07-27 15:27:41] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:27:41] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:27:41] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:27:41] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:27:41] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.401 seconds (process running for 798.33)
+[23-07-27 15:27:41] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:30:49] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:30:49] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:30:49] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:30:49] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:30:49] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:30:49] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:30:49] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:32:50] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[23-07-27 15:32:50] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[23-07-27 15:32:50] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:32:50] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:32:52] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[23-07-27 15:32:52] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[23-07-27 15:32:52] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:32:52] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:32:53] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:32:53] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:32:53] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:32:53] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:32:53] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:32:53] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 202 ms
+[23-07-27 15:32:53] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:32:53] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:32:53] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:32:53] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:32:53] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.364 seconds (process running for 1110.319)
+[23-07-27 15:32:53] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:33:10] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[23-07-27 15:33:10] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:10] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:33:10] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:10] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:10] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:33:10] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:33:10] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:33:10] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:10] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:33:10] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:33:10] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:33:10] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 196 ms
+[23-07-27 15:33:10] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:33:10] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:33:10] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:10] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:33:10] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.335 seconds (process running for 1127.461)
+[23-07-27 15:33:10] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:33:27] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:33:27] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:27] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:33:27] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:27] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:27] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:33:27] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:33:27] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:33:27] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:27] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:33:27] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:33:27] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:33:27] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 180 ms
+[23-07-27 15:33:27] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:33:27] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:33:27] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:27] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:33:27] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.304 seconds (process running for 1144.472)
+[23-07-27 15:33:27] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:33:32] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:33:32] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:32] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:33:32] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:32] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:33] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:33:33] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:33:33] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:33:33] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:33] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:33:33] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:33:33] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:33:33] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 185 ms
+[23-07-27 15:33:33] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:33:33] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:33:33] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:33] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:33:33] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.311 seconds (process running for 1150.367)
+[23-07-27 15:33:33] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:33:56] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[23-07-27 15:33:56] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:56] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:33:56] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:56] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:56] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:33:56] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:33:56] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:33:56] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:56] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:33:56] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:33:56] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:33:56] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 208 ms
+[23-07-27 15:33:56] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:33:56] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:33:56] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:33:56] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:33:56] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.368 seconds (process running for 1173.571)
+[23-07-27 15:33:56] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:37:23] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:37:23] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:37:23] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:37:23] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:37:23] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:37:24] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:37:24] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:37:24] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:37:24] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:37:24] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:37:24] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:37:24] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:37:24] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 213 ms
+[23-07-27 15:37:24] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:37:24] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:37:24] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:37:24] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:37:24] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.375 seconds (process running for 1381.436)
+[23-07-27 15:37:24] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:41:57] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:41:57] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:41:57] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:41:57] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:41:57] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:41:57] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:41:57] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:41:58] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:41:58] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:41:58] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:41:58] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:41:58] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:41:58] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 192 ms
+[23-07-27 15:41:58] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:41:58] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:41:58] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:41:58] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:41:58] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.348 seconds (process running for 1655.213)
+[23-07-27 15:41:58] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:42:19] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[23-07-27 15:42:19] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:42:19] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:42:19] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:42:19] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:42:19] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:42:19] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:42:19] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:42:19] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:42:19] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:42:19] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:42:19] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:42:19] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 200 ms
+[23-07-27 15:42:19] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:42:19] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:42:19] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:42:19] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:42:19] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.415 seconds (process running for 1676.793)
+[23-07-27 15:42:19] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:43:04] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:43:04] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:04] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:43:04] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:04] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:04] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:43:04] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:43:04] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:43:04] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:04] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:43:04] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:43:04] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:43:04] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 181 ms
+[23-07-27 15:43:04] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:43:04] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[23-07-27 15:43:14] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:43:14] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:43:14] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:43:14] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:14] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:43:14] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:43:14] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:43:14] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 213 ms
+[23-07-27 15:43:14] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:43:14] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:43:14] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:14] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:43:14] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.378 seconds (process running for 1731.349)
+[23-07-27 15:43:14] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:43:24] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:43:24] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:24] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:43:24] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:24] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:25] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:43:25] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:43:25] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:43:25] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:25] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:43:25] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:43:25] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:43:25] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 182 ms
+[23-07-27 15:43:25] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:43:25] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[23-07-27 15:43:34] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:43:34] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:43:35] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:43:35] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:35] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:43:35] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:43:35] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:43:35] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 223 ms
+[23-07-27 15:43:35] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:43:35] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[23-07-27 15:43:54] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:43:54] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:43:54] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:43:54] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:54] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:43:54] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:43:54] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:43:54] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 246 ms
+[23-07-27 15:43:54] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:43:54] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:43:54] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:54] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:43:54] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.395 seconds (process running for 1771.561)
+[23-07-27 15:43:54] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:43:55] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:43:55] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:55] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:43:55] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:55] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:56] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:43:56] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:43:56] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:43:56] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:56] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:43:56] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:43:56] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:43:56] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 215 ms
+[23-07-27 15:43:56] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:43:56] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:43:56] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:43:56] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:43:56] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.364 seconds (process running for 1773.39)
+[23-07-27 15:43:56] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:44:37] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:44:37] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:44:37] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:44:37] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:44:37] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:44:37] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:44:37] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:44:37] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:44:37] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:44:37] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:44:37] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:44:37] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:44:37] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 192 ms
+[23-07-27 15:44:37] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:44:37] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:44:37] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:44:37] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:44:37] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.327 seconds (process running for 1814.902)
+[23-07-27 15:44:37] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:44:46] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:44:46] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:44:46] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:44:46] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:44:46] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:44:46] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:44:46] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:44:46] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:44:46] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:44:46] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:44:46] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:44:46] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:44:46] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 190 ms
+[23-07-27 15:44:46] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:44:46] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:44:46] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:44:46] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:44:46] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.32 seconds (process running for 1823.884)
+[23-07-27 15:44:46] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:50:05] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 15:50:05] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 15:50:05] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[23-07-27 15:50:05] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection opened. {executed in 21ms} 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.new Connection returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.getNetworkTimeout() returned 0
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.isReadOnly() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.getAutoCommit() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.isValid(1) returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.getTransactionIsolation() returned 2
+[23-07-27 15:50:05] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@59e79d81
+[23-07-27 15:50:05] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.getAutoCommit() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@a276e50
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. select sysdate from dual  {executed in 1 ms}
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.execute() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.new ResultSet returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@43f44e7e
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@52edfb65
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.getType() returned 1003
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.getString(SYSDATE) returned 2023-07-27 15:50:05
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 
+|--------------------|
+|sysdate             |
+|--------------------|
+|2023-07-27 15:50:05 |
+|--------------------|
+
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.close() returned void
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@4791c880
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.close() returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.clearWarnings() returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.getAutoCommit() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@75197b5b
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. select sysdate from dual  {executed in 1 ms}
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.execute() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.new ResultSet returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@a48cdb6
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@76354165
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.getType() returned 1003
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.getTimestamp(SYSDATE) returned 2023-07-27 15:50:05.0
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|sysdate               |
+|----------------------|
+|2023-07-27 15:50:05.0 |
+|----------------------|
+
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.close() returned void
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@4791c880
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.close() returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.clearWarnings() returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.getAutoCommit() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.prepareStatement(select sysdate as today from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@15435e6
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. select sysdate as today from dual  {executed in 1 ms}
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.execute() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.new ResultSet returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4dbd7d07
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@11df23bc
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.getType() returned 1003
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.getTimestamp(TODAY) returned 2023-07-27 15:50:05.0
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|today                 |
+|----------------------|
+|2023-07-27 15:50:05.0 |
+|----------------------|
+
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. ResultSet.close() returned void
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@4791c880
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. PreparedStatement.close() returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 21. Connection.clearWarnings() returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 22. Connection opened. {executed in 18ms} 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 22. Connection.new Connection returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 22. Connection.isReadOnly() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 22. Connection.getAutoCommit() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 23. Connection opened. {executed in 20ms} 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 23. Connection.new Connection returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 23. Connection.isReadOnly() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 23. Connection.getAutoCommit() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 24. Connection opened. {executed in 20ms} 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 24. Connection.new Connection returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 24. Connection.isReadOnly() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 24. Connection.getAutoCommit() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 25. Connection opened. {executed in 20ms} 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 25. Connection.new Connection returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 25. Connection.isReadOnly() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 25. Connection.getAutoCommit() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 26. Connection opened. {executed in 20ms} 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 26. Connection.new Connection returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 26. Connection.isReadOnly() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 26. Connection.getAutoCommit() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 27. Connection opened. {executed in 22ms} 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 27. Connection.new Connection returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 27. Connection.isReadOnly() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 27. Connection.getAutoCommit() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 28. Connection opened. {executed in 20ms} 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 28. Connection.new Connection returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 28. Connection.isReadOnly() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 28. Connection.getAutoCommit() returned true
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 29. Connection opened. {executed in 19ms} 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 29. Connection.new Connection returned 
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 29. Connection.isReadOnly() returned false
+[23-07-27 15:50:05] INFO  log4jdbc.log4j2 - 29. Connection.getAutoCommit() returned true
+[23-07-27 15:50:06] INFO  log4jdbc.log4j2 - 30. Connection opened. {executed in 18ms} 
+[23-07-27 15:50:06] INFO  log4jdbc.log4j2 - 30. Connection.new Connection returned 
+[23-07-27 15:50:06] INFO  log4jdbc.log4j2 - 30. Connection.isReadOnly() returned false
+[23-07-27 15:50:06] INFO  log4jdbc.log4j2 - 30. Connection.getAutoCommit() returned true
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.isValid(5) returned true
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.getAutoCommit() returned true
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1e5568a7
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. select sysdate from dual  {executed in 1 ms}
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.execute() returned true
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.new ResultSet returned 
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@33613cea
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@2f81d498
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.getType() returned 1003
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned true
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.getString(SYSDATE) returned 2023-07-27 15:51:12
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 
+|--------------------|
+|sysdate             |
+|--------------------|
+|2023-07-27 15:51:12 |
+|--------------------|
+
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned false
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.close() returned void
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@4791c880
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.close() returned 
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.clearWarnings() returned 
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.getAutoCommit() returned true
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@7e7a97e8
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. select sysdate from dual  {executed in 0 ms}
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.execute() returned true
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.new ResultSet returned 
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@444672a1
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@65425ba5
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.getType() returned 1003
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned true
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.getTimestamp(SYSDATE) returned 2023-07-27 15:51:12.0
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|sysdate               |
+|----------------------|
+|2023-07-27 15:51:12.0 |
+|----------------------|
+
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned false
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.close() returned void
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@4791c880
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.close() returned 
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.clearWarnings() returned 
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.getAutoCommit() returned true
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.prepareStatement(select sysdate as today from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@7a348d33
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. select sysdate as today from dual  {executed in 0 ms}
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.execute() returned true
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.new ResultSet returned 
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@d103bae
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@7a78d6da
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.getType() returned 1003
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned true
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.getTimestamp(TODAY) returned 2023-07-27 15:51:12.0
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.isClosed() returned false
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|today                 |
+|----------------------|
+|2023-07-27 15:51:12.0 |
+|----------------------|
+
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.next() returned false
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. ResultSet.close() returned void
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@4791c880
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. PreparedStatement.close() returned 
+[23-07-27 15:51:12] INFO  log4jdbc.log4j2 - 21. Connection.clearWarnings() returned 
+[23-07-27 15:51:59] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:51:59] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:51:59] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:51:59] INFO  o.a.c.c.C.[.[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 15:51:59] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:51:59] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:51:59] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 21. Connection closed. {executed in 1ms} 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 21. Connection.close() returned 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 22. Connection closed. {executed in 1ms} 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 22. Connection.close() returned 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 23. Connection closed. {executed in 1ms} 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 23. Connection.close() returned 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 24. Connection closed. {executed in 1ms} 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 24. Connection.close() returned 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 25. Connection closed. {executed in 1ms} 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 25. Connection.close() returned 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 26. Connection closed. {executed in 1ms} 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 26. Connection.close() returned 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 27. Connection closed. {executed in 2ms} 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 27. Connection.close() returned 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 28. Connection closed. {executed in 2ms} 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 28. Connection.close() returned 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 29. Connection closed. {executed in 2ms} 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 29. Connection.close() returned 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 30. Connection closed. {executed in 1ms} 
+[23-07-27 15:51:59] INFO  log4jdbc.log4j2 - 30. Connection.close() returned 
+[23-07-27 15:51:59] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+[23-07-27 15:51:59] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:51:59] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:51:59] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:51:59] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:51:59] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:51:59] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:51:59] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:51:59] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 193 ms
+[23-07-27 15:51:59] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:51:59] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:51:59] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:51:59] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:51:59] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.334 seconds (process running for 2256.971)
+[23-07-27 15:51:59] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:52:10] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:52:10] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:10] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:52:10] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:10] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:10] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:52:10] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:52:10] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:52:10] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:10] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:52:10] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:52:10] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:52:10] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 185 ms
+[23-07-27 15:52:10] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:52:10] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:52:10] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:10] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:52:10] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.318 seconds (process running for 2268.003)
+[23-07-27 15:52:10] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:52:16] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:52:16] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:16] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:52:16] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:16] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:16] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 14616 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:52:16] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:52:16] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:52:16] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:16] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:52:16] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:52:16] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:52:16] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 185 ms
+[23-07-27 15:52:16] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:52:16] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:52:16] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:16] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:52:16] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.315 seconds (process running for 2273.836)
+[23-07-27 15:52:16] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:52:16] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 15:52:16] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 15:52:16] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[23-07-27 15:52:46] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[23-07-27 15:52:46] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:46] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:52:46] INFO  o.a.c.c.C.[.[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 15:52:46] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:46] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:53] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:52:53] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:52:53] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\human\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.9.0.0\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/human/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.9.0.0/oraclepki.jar
+[23-07-27 15:52:53] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[23-07-27 15:52:53] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[23-07-27 15:52:54] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:52:54] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:54] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:52:54] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:52:54] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:52:54] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 970 ms
+[23-07-27 15:52:55] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:52:55] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:52:55] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:52:55] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:52:55] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 1.965 seconds (process running for 2.828)
+[23-07-27 15:53:01] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 15:53:01] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 15:53:01] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[23-07-27 15:53:01] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[23-07-27 15:53:01] INFO  log4jdbc.log4j2 - 1. Connection opened. {executed in 175ms} 
+[23-07-27 15:53:01] INFO  log4jdbc.log4j2 - 1. Connection.new Connection returned 
+[23-07-27 15:53:01] INFO  log4jdbc.log4j2 - 1. Connection.getNetworkTimeout() returned 0
+[23-07-27 15:53:01] INFO  log4jdbc.log4j2 - 1. Connection.isReadOnly() returned false
+[23-07-27 15:53:01] INFO  log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+[23-07-27 15:53:01] INFO  log4jdbc.log4j2 - 1. Connection.isValid(1) returned true
+[23-07-27 15:53:01] INFO  log4jdbc.log4j2 - 1. Connection.getTransactionIsolation() returned 2
+[23-07-27 15:53:01] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@2765cfa6
+[23-07-27 15:53:01] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[23-07-27 15:53:01] INFO  log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+[23-07-27 15:53:01] INFO  log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:53:01] INFO  log4jdbc.log4j2 - 1. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@23e9eae0
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. select sysdate from dual  {executed in 45 ms}
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@511abf7a
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@31673be3
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 2. Connection opened. {executed in 23ms} 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 2. Connection.new Connection returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 2. Connection.isReadOnly() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 2. Connection.getAutoCommit() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.getString(SYSDATE) returned 2023-07-27 15:53:01
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 
+|--------------------|
+|sysdate             |
+|--------------------|
+|2023-07-27 15:53:01 |
+|--------------------|
+
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.close() returned void
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@6015e7a
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. Connection.prepareStatement(select sysdate from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5a908f7b
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. select sysdate from dual  {executed in 1 ms}
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7498a561
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@37c70e21
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.getTimestamp(SYSDATE) returned 2023-07-27 15:53:02.0
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|sysdate               |
+|----------------------|
+|2023-07-27 15:53:02.0 |
+|----------------------|
+
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.close() returned void
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@6015e7a
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. Connection.prepareStatement(select sysdate as today from dual) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@22e02822
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. select sysdate as today from dual  {executed in 1 ms}
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@13e232b2
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@1cdb90e9
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.getTimestamp(TODAY) returned 2023-07-27 15:53:02.0
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 
+|----------------------|
+|today                 |
+|----------------------|
+|2023-07-27 15:53:02.0 |
+|----------------------|
+
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.next() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. ResultSet.close() returned void
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@6015e7a
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 3. Connection opened. {executed in 24ms} 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 3. Connection.new Connection returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 3. Connection.isReadOnly() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 3. Connection.getAutoCommit() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 4. Connection opened. {executed in 22ms} 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 4. Connection.new Connection returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 4. Connection.isReadOnly() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 4. Connection.getAutoCommit() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 5. Connection opened. {executed in 20ms} 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 5. Connection.new Connection returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 5. Connection.isReadOnly() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 5. Connection.getAutoCommit() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 6. Connection opened. {executed in 21ms} 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 6. Connection.new Connection returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 6. Connection.isReadOnly() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 6. Connection.getAutoCommit() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 7. Connection opened. {executed in 20ms} 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 7. Connection.new Connection returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 7. Connection.isReadOnly() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 7. Connection.getAutoCommit() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 8. Connection opened. {executed in 19ms} 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 8. Connection.new Connection returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 8. Connection.isReadOnly() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 8. Connection.getAutoCommit() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 9. Connection opened. {executed in 26ms} 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 9. Connection.new Connection returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 9. Connection.isReadOnly() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 9. Connection.getAutoCommit() returned true
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 10. Connection opened. {executed in 20ms} 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 10. Connection.new Connection returned 
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 10. Connection.isReadOnly() returned false
+[23-07-27 15:53:02] INFO  log4jdbc.log4j2 - 10. Connection.getAutoCommit() returned true
+[23-07-27 15:54:05] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:54:05] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:54:05] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:54:05] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 15:54:05] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:54:05] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:54:05] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 1. Connection closed. {executed in 1ms} 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 1. Connection.close() returned 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 2. Connection closed. {executed in 1ms} 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 2. Connection.close() returned 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 3. Connection closed. {executed in 0ms} 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 3. Connection.close() returned 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 4. Connection closed. {executed in 1ms} 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 4. Connection.close() returned 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 5. Connection closed. {executed in 1ms} 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 5. Connection.close() returned 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 6. Connection closed. {executed in 0ms} 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 6. Connection.close() returned 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 7. Connection closed. {executed in 1ms} 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 7. Connection.close() returned 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 8. Connection closed. {executed in 1ms} 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 8. Connection.close() returned 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 9. Connection closed. {executed in 1ms} 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 9. Connection.close() returned 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 10. Connection closed. {executed in 1ms} 
+[23-07-27 15:54:05] INFO  log4jdbc.log4j2 - 10. Connection.close() returned 
+[23-07-27 15:54:05] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[23-07-27 15:54:05] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:54:05] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:54:05] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:54:05] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:54:05] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:54:05] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:54:05] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:54:05] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 218 ms
+[23-07-27 15:54:05] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:54:05] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:54:05] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:54:05] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:54:05] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.375 seconds (process running for 73.36)
+[23-07-27 15:54:05] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:54:07] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 15:54:07] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 15:54:07] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[23-07-27 15:56:09] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:56:09] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:09] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:56:09] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 15:56:09] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:09] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:09] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:56:09] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:56:09] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:56:09] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:09] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:56:09] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:56:09] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:56:09] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 198 ms
+[23-07-27 15:56:09] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:56:09] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:56:09] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:09] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:56:09] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.348 seconds (process running for 196.982)
+[23-07-27 15:56:09] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:56:15] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:56:15] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:15] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:56:15] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:15] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:15] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:56:15] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:56:15] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:56:15] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:15] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:56:15] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:56:15] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:56:15] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 196 ms
+[23-07-27 15:56:15] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:56:15] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:56:15] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:15] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:56:15] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.334 seconds (process running for 202.937)
+[23-07-27 15:56:15] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:56:25] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 15:56:25] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:25] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 15:56:25] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:25] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:25] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 15:56:25] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 15:56:25] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 15:56:25] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:25] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 15:56:25] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 15:56:25] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 15:56:25] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 196 ms
+[23-07-27 15:56:25] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 15:56:25] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 15:56:25] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 15:56:25] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 15:56:25] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.339 seconds (process running for 212.977)
+[23-07-27 15:56:25] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 15:56:26] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 15:56:26] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 15:56:26] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[23-07-27 16:39:02] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 16:39:02] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:39:02] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 16:39:02] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 16:39:02] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:39:02] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:39:02] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 16:39:02] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 16:39:02] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 16:39:02] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:39:02] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 16:39:02] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 16:39:02] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 16:39:02] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 230 ms
+[23-07-27 16:39:02] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 16:39:02] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 16:39:02] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:39:02] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 16:39:02] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.389 seconds (process running for 2769.921)
+[23-07-27 16:39:02] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 16:52:17] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 16:52:17] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:52:17] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 16:52:17] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:52:17] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:52:17] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 16:52:17] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 16:52:17] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 16:52:17] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:52:17] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 16:52:17] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 16:52:17] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 16:52:17] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 196 ms
+[23-07-27 16:52:17] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 16:52:17] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 16:52:17] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:52:17] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 16:52:17] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.357 seconds (process running for 3565.385)
+[23-07-27 16:52:18] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 16:53:45] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 16:53:45] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:53:45] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 16:53:45] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:53:45] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:53:45] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 16:53:45] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 16:53:45] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 16:53:45] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:53:45] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 16:53:45] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 16:53:45] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 16:53:45] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 181 ms
+[23-07-27 16:53:45] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 16:53:45] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 16:53:45] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 16:53:45] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 16:53:46] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.319 seconds (process running for 3653.387)
+[23-07-27 16:53:46] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 16:57:52] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 16:57:52] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 16:57:52] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[23-07-27 17:00:20] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 17:00:20] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:00:20] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:00:20] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 17:00:20] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:00:20] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:00:20] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:00:20] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:00:20] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:00:20] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:00:20] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:00:20] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:00:20] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:00:20] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 202 ms
+[23-07-27 17:00:20] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:00:20] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 17:00:20] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:00:20] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 17:00:20] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.345 seconds (process running for 4048.005)
+[23-07-27 17:00:20] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 17:02:01] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 17:02:01] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 17:02:01] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[23-07-27 17:12:46] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+[23-07-27 17:12:46] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:12:46] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:12:46] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 17:12:46] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:12:46] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:12:46] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:12:46] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:12:46] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:12:46] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:12:46] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:12:46] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:12:46] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:12:46] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 219 ms
+[23-07-27 17:12:46] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:12:46] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 17:12:46] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:12:46] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 17:12:46] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.368 seconds (process running for 4794.127)
+[23-07-27 17:12:46] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 17:12:51] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 17:12:51] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:12:51] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:12:51] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:12:51] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:12:51] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:12:51] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:12:51] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:12:51] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:12:51] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:12:51] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:12:51] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:12:51] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 186 ms
+[23-07-27 17:12:51] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:12:51] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 17:12:51] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:12:51] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 17:12:51] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.31 seconds (process running for 4798.985)
+[23-07-27 17:12:51] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 17:13:02] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 17:13:02] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:02] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:13:02] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:02] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:02] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:13:02] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:13:02] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:13:02] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:02] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:13:02] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:13:02] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:13:02] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 182 ms
+[23-07-27 17:13:02] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:13:02] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 17:13:02] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:02] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 17:13:02] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.32 seconds (process running for 4810.103)
+[23-07-27 17:13:02] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 17:13:20] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 17:13:20] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:20] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:13:20] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:20] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:20] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:13:20] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:13:20] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:13:20] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:20] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:13:20] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:13:20] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:13:20] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 203 ms
+[23-07-27 17:13:20] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:13:20] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 17:13:20] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:20] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 17:13:20] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.333 seconds (process running for 4828.38)
+[23-07-27 17:13:20] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 17:13:50] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 17:13:50] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:50] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:13:50] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:50] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:50] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:13:50] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:13:50] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:13:50] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:50] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:13:50] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:13:50] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:13:50] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 197 ms
+[23-07-27 17:13:50] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:13:50] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 17:13:50] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:13:50] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 17:13:50] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.32 seconds (process running for 4857.968)
+[23-07-27 17:13:50] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 17:14:18] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 17:14:18] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:14:18] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:14:18] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:14:18] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:14:18] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:14:18] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:14:18] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:14:18] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:14:18] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:14:18] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:14:18] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:14:18] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 196 ms
+[23-07-27 17:14:19] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:14:19] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 17:14:19] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:14:19] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 17:14:19] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.35 seconds (process running for 4886.437)
+[23-07-27 17:14:19] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 17:14:21] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 17:14:21] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 17:14:21] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[23-07-27 17:16:06] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 17:16:06] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:16:06] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:16:06] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 17:16:06] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:16:06] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:16:06] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:16:06] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:16:06] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:16:06] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:16:06] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:16:06] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:16:06] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:16:06] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 194 ms
+[23-07-27 17:16:06] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:16:07] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 17:16:07] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:16:07] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 17:16:07] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.34 seconds (process running for 4994.422)
+[23-07-27 17:16:07] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 17:16:17] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 17:16:17] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:16:17] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:16:17] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:16:17] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:16:17] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:16:17] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:16:18] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:16:18] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:16:18] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:16:18] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:16:18] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:16:18] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 188 ms
+[23-07-27 17:16:18] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:16:18] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 17:16:18] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:16:18] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 17:16:18] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.315 seconds (process running for 5005.544)
+[23-07-27 17:16:18] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 17:16:18] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 17:16:18] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 17:16:18] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[23-07-27 17:18:16] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 17:18:16] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:18:16] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:18:16] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 17:18:16] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:18:16] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:18:16] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:18:16] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:18:16] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:18:16] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:18:16] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:18:16] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:18:16] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:18:16] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 235 ms
+[23-07-27 17:18:16] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:18:16] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 17:18:16] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:18:16] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 17:18:16] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.379 seconds (process running for 5124.177)
+[23-07-27 17:18:16] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 17:23:11] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 17:23:11] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 17:23:11] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[23-07-27 17:23:52] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 17:23:52] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:23:52] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:23:52] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 17:23:52] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:23:52] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:23:52] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:23:52] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:23:53] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:23:53] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:23:53] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:23:53] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:23:53] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:23:53] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 205 ms
+[23-07-27 17:23:53] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:23:53] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[23-07-27 17:23:53] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:23:53] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[23-07-27 17:23:53] INFO  com.human.web01.ExPro26Application - Started ExPro26Application in 0.331 seconds (process running for 5460.589)
+[23-07-27 17:23:53] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[23-07-27 17:24:00] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23-07-27 17:24:00] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[23-07-27 17:24:00] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[23-07-27 17:25:09] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[23-07-27 17:25:09] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:25:09] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:25:09] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[23-07-27 17:25:09] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:25:09] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:25:09] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:25:09] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:25:09] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:25:09] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:25:09] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:25:09] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:25:09] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:25:09] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 215 ms
+[23-07-27 17:25:09] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:25:09] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:25:09] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[23-07-27 17:27:44] INFO  com.human.web01.ExPro26Application - Starting ExPro26Application using Java 17.0.7 with PID 9836 (D:\yoojin\BootWorkSpace\Ex_Pro26\target\classes started by human in D:\yoojin\BootWorkSpace\Ex_Pro26)
+[23-07-27 17:27:44] INFO  com.human.web01.ExPro26Application - The following 1 profile is active: "local"
+[23-07-27 17:27:44] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[23-07-27 17:27:44] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[23-07-27 17:27:44] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[23-07-27 17:27:44] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.11]
+[23-07-27 17:27:44] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[23-07-27 17:27:44] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 212 ms
+[23-07-27 17:27:44] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[23-07-27 17:27:44] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[23-07-27 17:27:44] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.

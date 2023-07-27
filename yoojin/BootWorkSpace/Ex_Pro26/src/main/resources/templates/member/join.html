@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+
+
+$(function(){
+	
+//여기서 Ajax를 호출해서 중복여부 검사!!!
+	
+	
+});
+
+
+</script>
+
+</head>
+<body>
+<h1>hi</h1>
+
+
+<form action="insertOk" method="post">
+
+	<input class="login" type="text" placeholder="아이디입력" name="id" id="id"
+		th:value="${rid}" required="required" />	<br />
+	<input class="login" type="password" placeholder="비밀번호입력" id="pw"
+		name="password" required="required" />
+	<br />
+	<input class="name" type="text" placeholder="이름입력" name="name" id="name" required="required">
+	<br />
+	남<input type="radio" required="required" name="gender" value="1">
+	여<input type="radio" required="required" name="gender" value="2"><br />
+	생년월일<input type="date"><br />
+	탈퇴여부<br />
+	여<input type="checkbox" name="delete" value="0">부<input type="checkbox" checked="checked" name="delete" value="1"><br />
+	회원정보생성일: <br />
+	회원정보수정일:
+	 <br />
+<input type="submit" value="회원가입하기">
+<input type="button" value="돌아가기">
+
+</form>
+</body>
+</html>
