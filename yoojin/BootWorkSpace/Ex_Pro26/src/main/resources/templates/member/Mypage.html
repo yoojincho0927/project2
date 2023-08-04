@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script	src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+<script type="text/javascript">
+
+
+</script>
+
+</head>
+<body>
+	[[${session.loginVO}]]
+
+
+<form action="/member/updateOk" method="post">
+
+		<input type="hidden" th:value="${session.loginVO.loginid}" name="loginid" /><br> 
+	<input th:value=${session.loginVO.loginid}
+			disabled="disabled" />
+	 <br /> <input th:value=${session.loginVO.name} name="name"> <br /> 
+	 <input th:value=${session.loginVO.phonenumber} name="phonenumber">
+	<br />
+		이메일 <input th:value=${session.loginVO.email} disabled="disabled"> <br />
+ 
+			
+		
+		<input type="button" value="돌아가기"  class="btn btn-sm btn-outline-danger" 
+	onclick="history.back();"
+		 />
+		<input type="submit" value=" 수정하기"  class="btn btn-sm btn-outline-danger" />
+		<input type="button" value=" 탈퇴하기" th:onclick="|location.href='@{/member/deleteForm}'|" />
+		<input type="button" value="비밀번호 변경하기"  th:onclick="|location.href='@{/member/passwordUpdate}'|"/>
+
+	</form>
+
+
+
+
+
+</body>
+</html>

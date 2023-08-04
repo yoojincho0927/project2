@@ -3,45 +3,184 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script type="text/javascript">
-
 
 $(function(){
 	
-//여기서 Ajax를 호출해서 중복여부 검사!!!
+	
+	// 아이디를 입력할때 Ajax로 가입가능한 id인지를 확인하는 함수
+	// 키보드로 문자를 입력하고 떨어질때마다 작동
+	
+	  $("#loginid").keyup(function(){
+		  
+			// 입력값 읽기
+			let userid = $(this).val();
+			//alert(userid);
+			// 공백 입력 체크
+			if(userid.indexOf(' ')>=0){
+				alert('아이디에는 공백을 포함할 수 없어요!!!');
+				$(this).val("");
+				$(this).focus();
+				return;
+			}
+			
+			// 여기서 Ajax를 호출해서 중복여부 검사!!!
+			
+			if(userid.length>=2){
+				
+			axios.get('/member/idCheck?loginid='+userid)
+			  .then(function (response) {
+			    // 성공 핸들링
+			    console.log(response);
+			    
+			    let result= response.data *1;//문자열일지 몰라서 숫자로 변경
+			    if(result>=1){ //동일한 아이디가 존재
+			    	
+			    	$("#msg").html("사용 불가능한 아이디 입니다.").css('color','red');
+			    	
+			    }else{ //0이면 동일한 아이디가 없다.
+			    	
+			    	$("#msg").html("사용 가능한 아이디 입니다.").css('color','blue');
+			    }
+			    
+			    
+			  })
+			  .catch(function (error) {
+			    // 에러 핸들링
+			    console.log(error);
+			  })
+			  .finally(function () {
+			    // 항상 실행되는 영역
+			  });
+			
+				
+				
+			}else{
+				$("#msg").html("");
+			}
+			
+			
+		  
+	         });
+		
+		
+		
+		$("#email").keyup(function(){
+		
+			// 입력값 읽기
+			let email = $(this).val();
+			
+			if(email.indexOf(' ')>=0){
+				alert('이메일에는 공백을 포함할 수 없어요!!!');
+				$(this).val("");
+				$(this).focus();
+				return;
+			}
+			// 여기서 Ajax를 호출해서 중복여부 검사!!!
+			
+			axios.get('/member/emailCheck?email='+email)
+			  .then(function (response) {
+			    // 성공 핸들링
+			       let result= response.data *1;//문자열일지 몰라서 숫자로 변경
+			       if(result>=1){ //동일한 이메일 존재
+				    	
+				    	$("#msg2").html("사용 불가능한 이메일 입니다.").css('color','red');
+				    	
+				    }else{ //0이면 동일한 이메일이 없다.
+				    	
+				    	$("#msg2").html("사용 가능한 이메일 입니다.").css('color','blue');
+				    }
+			    console.log(response);
+			  })
+			  .catch(function (error) {
+			    // 에러 핸들링
+			    console.log(error);
+			  })
+			  .finally(function () {
+			    // 항상 실행되는 영역
+			  });
+		})
 	
 	
-});
+	});
+	
+	
+function check(){
+	let value = $("#loginid").val();
+	if(value==null || value.trim().length==0){
+		alert('사용자 아이디는 반드시 입력해야 합니다.');
+		 $("#loginid").val("");
+		 $("#loginid").focus();
+		 return false;
+	}
+	value = $("#password").val();
+	if(value==null || value.trim().length==0){
+		alert('사용자 비밀번호는 반드시 입력해야 합니다.');
+		 $("#password").val("");
+		 $("#password").focus();
+		 return false;
+	}
+	value = $("#name").val();
+	if(value==null || value.trim().length==0){
+		alert('사용자 이름은 반드시 입력해야 합니다.');
+		 $("#name").val("");
+		 $("#name").focus();
+		 return false;
+	}
+	value = $("#email").val();
+	if(value==null || value.trim().length==0){
+		alert('이메일은 반드시 입력해야 합니다.');
+		 $("#email").val("");
+		 $("#email").focus();
+		 return false;
+	}
+	// 아이디 체크한 결과의 색상을 얻어보자!!!
+	value = $("#msg").css('color');
+	//alert(value=='rgb(255, 0, 0)');
+	if(value=='rgb(255, 0, 0)'){
+		alert('사용자 아이디는 반드시 등록가능한 아이디여야 합니다.');
+		 $("#loginid").val("");
+		 $("#loginid").focus();
+		 return false;
+	}
+}
+	
+	
+
+
+
+
+
 
 
 </script>
 
 </head>
 <body>
-<h1>hi</h1>
+	<h1>hi</h1>
 
 
-<form action="insertOk" method="post">
+	<form action="insertOk" method="post" onsubmit="return check()">
 
-	<input class="login" type="text" placeholder="아이디입력" name="id" id="id"
-		th:value="${rid}" required="required" />	<br />
-	<input class="login" type="password" placeholder="비밀번호입력" id="pw"
-		name="password" required="required" />
-	<br />
-	<input class="name" type="text" placeholder="이름입력" name="name" id="name" required="required">
-	<br />
-	남<input type="radio" required="required" name="gender" value="1">
-	여<input type="radio" required="required" name="gender" value="2"><br />
-	생년월일<input type="date"><br />
-	탈퇴여부<br />
-	여<input type="checkbox" name="delete" value="0">부<input type="checkbox" checked="checked" name="delete" value="1"><br />
-	회원정보생성일: <br />
-	회원정보수정일:
-	 <br />
-<input type="submit" value="회원가입하기">
-<input type="button" value="돌아가기">
+		<!-- 이자리에 유효한 아이디인지 아닌지를 표시할거다. -->
+		<input type="text" placeholder="아이디입력" name="loginid" id="loginid"
+			required="required" /> <span id="msg"></span> <br /> <input
+			type="password" placeholder="비밀번호입력" id="password" name="password"
+			required="required" /> <br /> <input type="text" placeholder="이름입력"
+			name="name" id="name" required="required"> <br /> 남<input
+			type="radio" required="required" name="gender" value="1"> 여<input
+			type="radio" required="required" name="gender" value="2"><br />
+		생년월일<input type="date" name="birthday"><br /> 탈퇴여부<br /> 여<input
+			type="checkbox" name="delete_yn" value="0"> 부<input
+			type="checkbox" checked="checked" name="delete_yn" value="1"><br />
+		이메일 입력 <input type="email" name="email" id="email"> <span
+			id="msg2"></span> <br /> 전화번호 입력 <input type="text"
+			name="phonenumber" id="phonenumber"> <input type="submit"
+			value="회원가입하기"> <input type="button" value="돌아가기">
 
-</form>
+	</form>
 </body>
 </html>

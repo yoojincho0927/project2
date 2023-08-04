@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+<style type="text/css">
+		a:link { text-decoration: none; color: black; }
+		a:active { text-decoration: none; color: green; }
+		a:hover { text-decoration: none; color: black; font-weight: bold; }
+		a:visited { text-decoration: none; color: black; }
+		table { width: 1000px; padding: 5px; border: none; margin: auto; margin-top: 10px;}
+		th {padding:5px; background-color: silver; border: 1px solid gray; text-align: center;}
+		td {padding:5px; border: 1px solid gray; text-align: center;}
+		.title { text-align: center; font-size: 18pt; padding: 5px;border: none;}
+		.sub_title { text-align: right; font-size: 10pt; padding: 5px;border: none;}
+	</style>
+
+</head>
+<body>
+	<div th:if="${session.loginVO!=null}">
+	<span th:text=${session.loginVO.loginid}></span>님
+		환영합니다.
+		<button type="button" class="logout"
+			th:onclick="|location.href='@{/main/main}'|">로그아웃</button>
+		<button type="button" class="login"
+			th:onclick="|location.href='@{/member/Mypage}'|">마이페이지</button>
+		<button type="button" class="login"
+			th:onclick="|location.href='@{/main/insert}'|">새글쓰기</button>
+	</div>
+
+	<div th:if="${session.loginVO == null}">
+		<button type="button" class="login"
+			th:onclick="|location.href='@{/member/login}'|">로그인</button>
+		<button type="button" class="join"
+			th:onclick="|location.href='@{/member/join}'|">회원가입</button>
+	</div>
+ 
+	<!--/* 리스트 나오게 하기 */-->
+
+	 <table> 
+		<tr>
+			<td class="title" colspan="6">자유게시판</td>
+		</tr>
+		<tr>
+			<td class="sub_title" colspan="6">[[${pv.pageInfo}]]</td>
+		</tr>
+		<tr>
+			<th>No</th>
+			<th>작성자</th>
+			<th style="width: 50%">제목</th>
+			<th>조회수</th>
+			<th>작성일</th>
+		</tr>
+		<th:block th:if="${pv.totalCount>0}">
+		<!--전체 개수 보다 많으면 반복문으로 출력해서 tr이 계속 늘어나도록 -->
+			<tr th:each="vo:${pv.list}">
+				<td>[[${vo.idx}]]</td>
+				<td>[[${vo.loginid}]]</td>
+				<td style="text-align: left;margin-left: 10px;">
+				<a th:href="@{/view(idx=${vo.idx},p=${cv.p},s=${cv.s},b=${cv.b})}" >[[${vo.title}]]</a>
+				</td>
+				<td>[[${vo.readCount}]]</td>
+				<td>[[${#dates.format(vo.create_date,'yy-MM-dd hh:mm')}]]</td>
+			</tr>
+
+			<tr>
+				<td colspan="6" style="border: none;"> [(${pv.pageList})] </td>
+			</tr>
+		</th:block>
+
+		<tr th:if="${pv.totalCount<=0}">
+			<td colspan="6">등록된 글이 없습니다.</td>
+		</tr>
+		<tr>
+			<td th:if="${session.loginVO!=null}" class="sub_title" colspan="6">
+			<button class="btn btn-sm btn-outline-success" 
+			th:onclick="|location.href='@{/main/insert}'|">새글쓰기</button>
+			</td>
+		</tr>
+
+	</table> 
+
+	
+
+
+
+
+</body>
+</html>

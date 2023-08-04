@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+	<style type="text/css">
+		a:link { text-decoration: none; color: black; }
+		a:active { text-decoration: none; color: green; }
+		a:hover { text-decoration: none; color: black; font-weight: bold; }
+		a:visited { text-decoration: none; color: black; }
+		table { width: 800px; padding: 5px; border: none; margin: auto; margin-top: 10px;}
+		th {padding:5px; background-color: silver; border: 1px solid gray; text-align: center;}
+		td {padding:5px; border: 1px solid gray; text-align: center;}
+		.title { text-align: center; font-size: 18pt; padding: 5px;border: none;}
+		.sub_title { text-align: right; font-size: 10pt; padding: 5px;border: none;}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+
+		});	
+	</script>
+</head>
+<body>
+  [[${cv}]]<hr/> [[${vo}]] <hr/>
+  
+  
+  <table>
+		<tr>
+			<td class="title" colspan="4">자유게시판 - 내용보기</td>
+		</tr>
+		<tr>
+			<td style="text-align: right; border: none; font-weight: bold;">
+				아이디</td>
+			<td style="text-align: left; border: none;">[[${vo.loginid}]]</td>
+			<td style="text-align: right; border: none; font-weight: bold;">
+				조회수</td>
+			<td style="text-align: left; border: none;">
+				[[${vo.readCount}]]회</td>
+		</tr>
+		<tr>
+			<td style="text-align: right; border: none; font-weight: bold;">
+				작성일</td>
+			<td style="text-align: left; border: none;">
+				[[${#dates.format(vo.create_date,'yyyy년 MM월 dd일(EEEE) hh시 mm분 ss초')}]]</td>
+			
+		</tr>
+		<tr>
+			<td style="text-align: right; border: none; font-weight: bold;">
+				제목</td>
+			<td style="text-align: left; border: none;" colspan="3">
+				[[${vo.title}]]</td>
+		</tr>
+		<tr>
+			<td
+				style="text-align: right; border: none; font-weight: bold; vertical-align: top;">
+				내용</td>
+			<td style="text-align: left; border: none;" colspan="3">
+				<!-- 줄바꿈하여 내용을 출력한다. -->
+				[(${#strings.replace(vo.content,newLine,br)})]
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4"
+				style="text-align: right; border: none; font-weight: bold; vertical-align: top; margin-right: 40px">
+				<input type="button" value="돌아가기"
+				class="btn btn-sm btn-outline-danger"
+				th:onclick="|location.href='@{/(p=${cv.p},s=${cv.s},b=${cv.b})}'|" />
+				
+			</td>
+			<td th:if="${session.loginVO!=null}" class="sub_title" colspan="6">
+			<input type="button" value="수정하기"
+				class="btn btn-sm btn-outline-danger"
+				th:onclick="|location.href='@{update(idx=${cv.idx},p=${cv.p},s=${cv.s},b=${cv.b})}'|" />
+			</td>
+			
+		</tr>
+			  <!--/*<input type="button" value="수정하기"
+				class="btn btn-sm btn-outline-danger"
+				th:onclick="|location.href='@{update(idx=${cv.idx},p=${cv.p},s=${cv.s},b=${cv.b})}'|" />
+				<input type="button" value="삭제하기"
+				class="btn btn-sm btn-outline-danger"
+				th:onclick="|location.href='@{delete(idx=${cv.idx},p=${cv.p},s=${cv.s},b=${cv.b})}'|" />*/-->
+	</table>
+  
+  
+</body>
+</html>

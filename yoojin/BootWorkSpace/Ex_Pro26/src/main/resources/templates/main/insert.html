@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<body>
+자유게시판 - 새글쓰기<br/>
+		[[${session.loginVO}]]
+<form action="insertOk" method="post">
+
+		<input type="hidden" th:value="${session.loginVO.loginid}" name="loginid" /><br> 
+		<input type="text" name="title" id="subject" required="required"
+			placeholder="제목을 입력하세요" size="80" style="width: 730px" /><br />
+
+		<hr>
+
+		<textarea cols="95" rows="8" name="content" id="content"
+			required="required" placeholder="내용을 입력하세요"></textarea>
+		<br /> <input type="button" value="돌아가기"class="btn btn-sm btn-outline-danger" onclick="history.back();"/> 
+		<input type="submit" value="저장하기" class="btn btn-sm btn-outline-danger"  /> 
+		<input type="reset" value="다시쓰기" class="btn btn-sm btn-outline-danger"  />
+
+	</form>
+</body>
+</html>

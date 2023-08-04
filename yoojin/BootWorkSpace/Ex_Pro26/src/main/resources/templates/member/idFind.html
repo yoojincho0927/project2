@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+$(function(){
+	
+	$("#Btn").click(function(){
+		let email = $("#email").val();
+		
+		
+		const form = new FormData();
+		form.append('email', email);
+		
+		
+axios.post('/member/idFindOk',form)
+
+
+  .then(function (response) {
+	  
+	  
+    console.log(response);
+    
+    if(response.data){
+    	alert("이메일로 아이디가 발송되었습니다.")
+    }else{
+    	
+    	alert("일치하는 이메일이없습니다.")
+    }
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+		
+	});
+	
+});
+</script>
+
+</head>
+<body>
+
+
+
+
+	<input type="text" placeholder="이메일입력" id="email" required="required" />
+
+	<button id="Btn">아이디찾기</button>
+
+
+
+</body>
+</html>

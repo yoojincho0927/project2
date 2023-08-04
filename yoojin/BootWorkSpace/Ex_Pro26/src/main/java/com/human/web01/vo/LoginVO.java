@@ -2,6 +2,8 @@ package com.human.web01.vo;
 
 import java.util.Date;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import lombok.Data;
 
 //CREATE SEQUENCE tb_member_idx_seq;
@@ -26,11 +28,14 @@ public class LoginVO {
 	private String loginid;  //실제 로그인 아이디
 	private String password; //비밀번호
 	private String name;   //이름
-	private String gender;  //남,여
+	private int gender;  //남,여
+	//Date 로 받을때는 @DateTimeformat 을 써줘야 함.
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date birthday;  //생년월일
 	private int delete_yn; //탈퇴여부
-	private Date create_date;  //
-	private Date modified_date;
+	private Date create_date;  //생성일
+	private String email; //이메일
+	private String phonenumber; //전화번호
 	
-	
+
 }

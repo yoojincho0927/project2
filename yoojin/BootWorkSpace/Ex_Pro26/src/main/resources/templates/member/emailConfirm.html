@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<script
+	src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+<body>
+<script type="text/javascript">
+var userEmail="[[${email}]]";
+
+ alert(userEmail+'님 회원가입을 축하합니다. 이제 로그인이 가능 합니다');
+    window.open('', '_self', ''); 
+    
+    self.location = '/member/login';
+
+</script>
+	
+
+</body>
+</html>

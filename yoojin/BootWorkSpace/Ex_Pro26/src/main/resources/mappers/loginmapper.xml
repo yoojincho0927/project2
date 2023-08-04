@@ -4,18 +4,110 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.human.web01.dao.LoginDAO">
 	<!-- namespace와 인터페이스 이름이 일치해야 자동으로 구현된다. -->
-<!-- 한개 갖고오기 -->
+	<!-- 한 개 갖고오기 -->
 	<select id="selectByIdx" parameterType="int"
 		resultType="LoginVO">
 		select * from tb_member where idx=#{idx}
 	</select>
 
 
-<!-- 한개 저장 -->
+	<!-- 가입 -->
 	<insert id="insert" parameterType="LoginVO">
 
 		insert into tb_member
-		values(tb_member_idx_seq.nextval,#{loginid},#{password},#{name},#{gender},#{birthday},#{delete_yn},sysdate,sysdate)
+		(idx,
+		loginid,
+		password,
+		name,
+		gender,
+		birthday,
+		create_date,
+		email,phonenumber,
+		DELETE_YN)
+		values
+		(tb_member_idx_seq.nextval,
+		#{loginid},
+		#{password},
+		#{name},
+		#{gender},
+		#{birthday},
+		sysdate,
+		#{email},
+		#{phonenumber},1)
 	</insert>
+
+	<!-- 목록갖고오기 -->
+	<select id="selectAll" resultType="LoginVO">
+
+		select * from tb_member order
+		by idx desc
+	</select>
+
+	<!-- 생성된 메일 인증키 업데이트 -->
+	<update id="createAuthKey" parameterType="hashmap">
+		update tb_member set
+		authkey = #{authkey} where email = #{email}
+	</update>
+
+	<!-- email 이 일치하면 mem_auth가 0 에서 1로 바꿔준다.. -->
+	<update id="updateAuth" parameterType="string">
+		UPDATE tb_member SET
+		mem_auth =1 WHERE email=#{email}
+	</update>
+
+	<!-- 아이디 중복확인 -->
+	<select id="selectByUseridCount" parameterType="string"
+		resultType="int">
+		select count(*) from tb_member where loginid=#{loginid}
+	</select>
+
+
+	<!-- 이메일 중복확인 -->
+	<select id="selectByEmail" parameterType="string"
+		resultType="int">
+		select count(*) from tb_member where email=#{email}
+	</select>
+
+	<!-- 아이디 찾기 : 이메일, 전화번호 ==> 이메일과 전화번호로 찾는 쿼리 있어야 한다. -->
+	<select id="selectFindId" parameterType="string"
+		resultType="LoginVO">
+		SELECT * FROM TB_MEMBER tm WHERE tm.EMAIL =#{email}
+	</select>
+
+	<!-- 아이디 1개 갖고오기 -->
+	<select id="selectByUserid" parameterType="String"
+		resultType="LoginVO">
+		select * from TB_MEMBER where loginid=#{loginid}
+	</select>
+
+	<!-- 비밀번호 변경 :아이디와 이메일이 일치하면 비밀번호도 변경되도록 만들어준다. -->
+
+	<update id="updatePassword" parameterType="hashmap">
+		update TB_MEMBER set
+		password =#{password} where loginid=#{loginid}
+	</update>
+
+      <!-- password 수정 -->
+	<update id="updatePass" parameterType="hashmap">
+		update TB_MEMBER set
+		password =#{password} where loginid=#{loginid}
+	</update>
+	
+	
+	<!-- 나머지 정보 수정 -->
+	
+	<update id="updateInfo" parameterType="LoginVO">
+	update TB_MEMBER set
+		name=#{name},phonenumber=#{phonenumber} where loginid=#{loginid}
+	
+	</update>
+	<!-- 삭제 -->
+	<delete id="delete" parameterType="LoginVO">
+		delete from TB_MEMBER  where loginid = #{loginid}
+	</delete>
+	
+	
+	
+	
 
 </mapper>  

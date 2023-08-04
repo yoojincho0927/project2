@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko" xmlns="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>수정하기</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+	<style type="text/css">
+		a:link { text-decoration: none; color: black; }
+		a:active { text-decoration: none; color: green; }
+		a:hover { text-decoration: none; color: black; font-weight: bold; }
+		a:visited { text-decoration: none; color: black; }
+		table { width: 800px; padding: 5px; border: none; margin: auto; margin-top: 10px;}
+		th {padding:5px; background-color: silver; border: 1px solid gray; text-align: center;}
+		td {padding:5px; border: 1px solid gray; text-align: center;}
+		.title { text-align: center; font-size: 18pt; padding: 5px;border: none;}
+		.sub_title { text-align: right; font-size: 10pt; padding: 5px;border: none;}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+
+		});	
+	</script>
+</head>
+<body>
+	<form action="updateOk" method="post">
+	<table>
+		<tr>
+			<td class="title" colspan="4">
+			자유게시판 - 수정하기
+			<!-- 입력필드에 값넣을때는 th="value를 사용한다. -->
+			<input type="hidden" th:value="${session.loginVO.loginid}" name="loginid" /><br> 
+			<input type="hidden" name="idx" th:value="${cv.idx}" />
+			<input type="hidden" name="p" th:value="${cv.p}" />
+			<input type="hidden" name="s" th:value="${cv.s}" />
+			<input type="hidden" name="b" th:value="${cv.b}" />
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right; border: none; font-weight: bold ">
+			     아이디
+			</td>
+			<td style="text-align: left;border: none;" >
+				[[${session.loginVO.loginid}]]
+			</td>
+			
+		</tr>
+		<tr>
+			<td style="text-align: right; border: none; font-weight: bold;">
+				제목
+			</td>
+			<td style="text-align: left;border: none;" colspan="3">
+				<input type="text" name="title" id="subject"  size="80" th:value="${vo.title}"  style="width: 730px"/>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right; border: none; font-weight: bold; vertical-align: top;">
+				내용
+			</td>
+			<td style="text-align: left;border: none;" colspan="3">
+				<textarea cols="95" rows="8" name="content" id="content" required="required">[[${vo.content}]]</textarea>
+			</td>
+		</tr>
+		<tr>
+			<td  colspan="4" style="text-align: right; border: none; font-weight: bold; vertical-align: top;margin-right: 40px">
+				<input type="button" value="돌아가기"  class="btn btn-sm btn-outline-danger" th:onclick="|location.href='@{view(idx=${cv.idx},p=${cv.p},s=${cv.s},b=${cv.b})}'|"/>
+				<input type="submit" value="수정하기"  class="btn btn-sm btn-outline-danger" />
+				<input type="reset" value="다시쓰기"  class="btn btn-sm btn-outline-danger" />
+			</td>
+		</tr>
+	</table> 
+	</form>
+</body>
+</html>
