@@ -66,7 +66,7 @@ public class BoardServiceImpl implements BoardService {
 	// 내용보기
 	@Override
 	public BoardVO selectByIdx(int idx, boolean isReadCount) {
-		log.info("서비스 selectByIdx ({},{},{})호출~~", idx, isReadCount);
+		log.info("서비스 selectByIdx ({},{})호출~~", idx, isReadCount);
 		BoardVO boardVO = null;
 
 		try {
@@ -97,6 +97,22 @@ public class BoardServiceImpl implements BoardService {
 		} catch (Exception e) {
 			e.printStackTrace();
 			log.info("{} 글 수정 실패!!!", boardVO);
+		}
+
+	}
+
+	
+    //글 삭제하기
+	@Override
+	public void delete(int idx) {
+		log.info("서비스 delete ({})호출~~", idx);
+
+		try {
+			boardDaO.delete2(idx);
+			log.info("{} 글 삭제 성공!!!", idx);
+		} catch (Exception e) {
+			e.printStackTrace();
+			log.info("{} 글 삭제 실패!!!", idx);
 		}
 
 	}

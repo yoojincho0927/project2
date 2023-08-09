@@ -3,31 +3,161 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-	<style type="text/css">
-		a:link { text-decoration: none; color: black; }
-		a:active { text-decoration: none; color: green; }
-		a:hover { text-decoration: none; color: black; font-weight: bold; }
-		a:visited { text-decoration: none; color: black; }
-		table { width: 800px; padding: 5px; border: none; margin: auto; margin-top: 10px;}
-		th {padding:5px; background-color: silver; border: 1px solid gray; text-align: center;}
-		td {padding:5px; border: 1px solid gray; text-align: center;}
-		.title { text-align: center; font-size: 18pt; padding: 5px;border: none;}
-		.sub_title { text-align: right; font-size: 10pt; padding: 5px;border: none;}
-	</style>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-	<script type="text/javascript">
-		$(function(){
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+<style type="text/css">
+a:link {
+	text-decoration: none;
+	color: black;
+}
 
-		});	
-	</script>
+a:active {
+	text-decoration: none;
+	color: green;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+table {
+	width: 800px;
+	padding: 5px;
+	border: none;
+	margin: auto;
+	margin-top: 10px;
+}
+
+th {
+	padding: 5px;
+	background-color: silver;
+	border: 1px solid gray;
+	text-align: center;
+}
+
+td {
+	padding: 5px;
+	border: 1px solid gray;
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+	font-size: 18pt;
+	padding: 5px;
+	border: none;
+}
+
+.sub_title {
+	text-align: right;
+	font-size: 10pt;
+	padding: 5px;
+	border: none;
+}
+</style>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+
+	})
+	function deleteByIdx(idx, p, s, b){
+		if(confirm(idx+'번을 정말로 지울래?')){
+			// Ajax로 호출하여 삭제!!!!
+			axios.get('/main/deleteOk2?idx='+idx)
+			  .then(function (response) {
+			    // 성공 핸들링
+			    console.log(response);
+			    if(response.data){
+			    	alert('삭제 성공!!!');
+			    	location.href='/?p=' + p + "&s=" + s + "&b=" + b;
+			    }else{
+			    	alert('삭제 실패!!!');
+			    }
+			  })
+			  .catch(function (error) {
+			    // 에러 핸들링
+			    console.log(error);
+			    alert('error');
+			  });
+		}else{
+			alert('잘 생각했어 그냥둬!!!');
+		}
+	}
+	
+	
+	
+	function like(idx,loginid){
+		
+	
+		const form = new FormData();
+		form.append('login_id', loginid);
+		form.append('tb_ref', idx);
+		
+		axios.post('/main/likeOk',form)
+		  .then(function (response) {
+		    console.log(response)
+		    if(response.data){
+		    	alert("좋아요 등록완료");
+		    }else{
+		    	alert("좋아요 취소완료")
+		    }
+		    
+		    
+		  })
+		  .catch(function (error) {
+		    console.log(error);
+		    alert("에러")
+		  });
+		
+	}
+	
+	
+	function scrap(idx,loginid){
+		
+		
+		const form = new FormData();
+		form.append('login_id', loginid);
+		form.append('tb_ref', idx);
+		
+		axios.post('/main/scrapOk',form)
+		  .then(function (response) {
+		    console.log(response)
+		    if(response.data){
+		    	alert("스크랩 등록완료");
+		    }else{
+		    	alert("스크랩 취소완료")
+		    }
+		    
+		    
+		  })
+		  .catch(function (error) {
+		    console.log(error);
+		    alert("에러")
+		  });
+		
+	}
+	
+</script>
 </head>
 <body>
-  [[${cv}]]<hr/> [[${vo}]] <hr/>
-  
-  
-  <table>
+	<!-- [[${cv}]]
+	<hr />
+	[[${vo}]] -->
+
+
+
+	<table>
 		<tr>
 			<td class="title" colspan="4">자유게시판 - 내용보기</td>
 		</tr>
@@ -39,13 +169,29 @@
 				조회수</td>
 			<td style="text-align: left; border: none;">
 				[[${vo.readCount}]]회</td>
+			<td th:if="${session.loginVO!=null}" class="sub_title" colspan="6">
+				<button type="button" id="like" class="btn btn-outline-secondary"
+					th:onclick="like([[${vo.idx}]],[[${session.loginVO.loginid}]])">좋아요</button>
+					<td style="text-align: left; border: none;">
+				[[${vo.likeCount}]]좋아요</td></td>
+					
+			
+			<td th:if="${session.loginVO!=null}" class="sub_title" colspan="6">
+			<button type="button" id="like" class="btn btn-outline-secondary"
+					th:onclick="scrap([[${vo.idx}]],[[${session.loginVO.loginid}]])">스크랩</button>
+					<td style="text-align: left; border: none;">
+				[[${vo.scrapCount}]]스크랩</td>
+			</td>
 		</tr>
+		
+		
 		<tr>
 			<td style="text-align: right; border: none; font-weight: bold;">
 				작성일</td>
 			<td style="text-align: left; border: none;">
-				[[${#dates.format(vo.create_date,'yyyy년 MM월 dd일(EEEE) hh시 mm분 ss초')}]]</td>
-			
+				[[${#dates.format(vo.create_date,'yyyy년 MM월 dd일(EEEE) hh시 mm분
+				ss초')}]]</td>
+
 		</tr>
 		<tr>
 			<td style="text-align: right; border: none; font-weight: bold;">
@@ -68,23 +214,29 @@
 				<input type="button" value="돌아가기"
 				class="btn btn-sm btn-outline-danger"
 				th:onclick="|location.href='@{/(p=${cv.p},s=${cv.s},b=${cv.b})}'|" />
-				
+
 			</td>
 			<td th:if="${session.loginVO!=null}" class="sub_title" colspan="6">
-			<input type="button" value="수정하기"
+				<input type="button" value="수정하기"
 				class="btn btn-sm btn-outline-danger"
-				th:onclick="|location.href='@{update(idx=${cv.idx},p=${cv.p},s=${cv.s},b=${cv.b})}'|" />
+				th:onclick="|location.href='@{main/update(idx=${cv.idx},p=${cv.p},s=${cv.s},b=${cv.b})}'|" />
 			</td>
-			
+			<td th:if="${session.loginVO!=null}" class="sub_title" colspan="6">
+				<input type="button" value="삭제하기"
+				class="btn btn-sm btn-outline-danger"
+				th:onclick="deleteByIdx([[${vo.idx}]],[[${cv.p}]],[[${cv.s}]],[[${cv.b}]])" />
+			</td>
+
+
 		</tr>
-			  <!--/*<input type="button" value="수정하기"
+		<!--/*<input type="button" value="수정하기"
 				class="btn btn-sm btn-outline-danger"
 				th:onclick="|location.href='@{update(idx=${cv.idx},p=${cv.p},s=${cv.s},b=${cv.b})}'|" />
 				<input type="button" value="삭제하기"
 				class="btn btn-sm btn-outline-danger"
 				th:onclick="|location.href='@{delete(idx=${cv.idx},p=${cv.p},s=${cv.s},b=${cv.b})}'|" />*/-->
 	</table>
-  
-  
+
+
 </body>
 </html>

@@ -15,4 +15,7 @@ public interface BoardService {
 
 	// 글 수정
 	void update(BoardVO boardVO);
+
+	
+	void delete(int idx);
 }
