@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.human.web01.dao.BoardDaO">
+
+
+	<!-- 1. 개수세기 -->
+	<select id="selectCount" resultType="int">
+		select count(*) from
+		tb_board
+	</select>
+	<!-- 2. 1개 얻기 -->
+	<select id="selectByIdx" parameterType="int"
+		resultType="BoardVO">
+		select * from tb_board where idx=#{idx}
+	</select>
+	<!-- 3. 1페이지 얻기 -->
+	<select id="selectList" parameterType="hashmap"
+		resultType="BoardVO">
+		select
+		R.*
+		from
+		( select
+		rownum rnum, Q.*
+		from
+		(select * from tb_board order
+		by idx desc) Q
+		where
+				<![CDATA[ 
+			  	rownum <= #{endNo} 
+				]]>
+		) R
+		where	
+			<![CDATA[
+			rnum>=#{startNo} 
+			]]>
+	</select>
+
+	<!-- 조회수 증가하기 -->
+	<update id="incrementReadCount" parameterType="int">
+		update tb_board set readCount = readCount + 1 where idx=#{idx}
+	</update>
+	<!-- 글 저장 -->
+	<!--게시물의 loginid와 loginVO의 loginid와 같으면 저장 가능 -->
+	<insert id="write" parameterType="BoardVO">
+
+		insert into tb_board
+		(idx,
+		loginid,
+		title,
+		content,
+		create_date)
+		values
+		(tb_board_idx.nextval,
+		#{loginid},
+		#{title},
+		#{content},
+		sysdate)
+	</insert>
+
+	<!-- 5. 수정하기 -->
+	<update id="update" parameterType="BoardVO">
+		update
+		tb_board
+		set
+		title=#{title},
+		content=#{content},
+		create_date=sysdate
+		where
+		loginid = #{loginid} and idx=#{idx}
+	</update>
+
+	
+	
+	<!-- 5. 삭제하기 -->
+	<delete id="delete2" parameterType="int">
+		delete from tb_board where idx=#{idx}
+		
+	</delete>
+	
+	<!-- 좋아요 수 증가하기 -->
+	<update id="likeCount" parameterType="int">
+		update tb_board set likeCount = likeCount + 1 where idx=#{idx}
+	</update>
+	
+   <!-- 좋아요 수 감소하기 -->
+	<update id="dislikeCount" parameterType="int">
+		update tb_board set likeCount = likeCount - 1 where idx=#{idx}
+	</update>
+	
+	
+	<!-- 좋아요 수 증가하기 -->
+	<update id="scrapCount" parameterType="int">
+		update tb_board set scrapCount = scrapCount + 1 where idx=#{idx}
+	</update>
+	
+   <!-- 좋아요 수 감소하기 -->
+	<update id="scrapless" parameterType="int">
+		update tb_board set scrapCount = scrapCount - 1 where idx=#{idx}
+	</update>
+	
+</mapper>  

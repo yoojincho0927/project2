@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.human.web01.dao.ScrapDAO">
+
+
+<!-- 스크랩 기능 -->
+	<insert id="scrap" parameterType="ScrapVO">
+		insert into scrap(
+		idx,
+		tb_ref,
+		login_id)
+		values(
+		scrap_idx_seq.nextval,
+		#{tb_ref},
+		#{login_id})
+	</insert>
+
+	<!-- 중복방지 -->
+	<select id="scrapCheck" resultType="int" parameterType="ScrapVO">
+		select
+		count(*) from scrap where tb_ref=#{tb_ref} and login_id=#{login_id}
+	</select>
+
+	<!-- 좋아요 취소 -->
+	<delete id="notscrap" parameterType="ScrapVO">
+		delete from scrap where
+		tb_ref=#{tb_ref} and login_id=#{login_id}
+	</delete>
+
+
+
+</mapper>  

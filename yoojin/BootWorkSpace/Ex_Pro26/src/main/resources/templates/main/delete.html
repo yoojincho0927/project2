@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="deleteOk" method="post">
+	<input type="hidden" th:value="${session.loginVO.loginid}" name="loginid" /><br>
+			<input type="hidden" name="idx" th:value="${cv.idx}" />
+			<input type="hidden" name="p" th:value="${cv.p}" />
+			<input type="hidden" name="s" th:value="${cv.s}" />
+			<input type="hidden" name="b" th:value="${cv.b}" />
+			
+</form>
+</body>
+</html>
