@@ -1,5 +1,7 @@
 package com.human.web01.Service;
 
+import java.util.List;
+
 import com.human.web01.vo.BoardVO;
 
 public interface BoardService {
@@ -18,4 +20,8 @@ public interface BoardService {
 
 	
 	void delete(int idx);
+	
+	//좋아요 가져오기
+	
+	List<BoardVO>  selectLike(String loginid);
 }

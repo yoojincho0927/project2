@@ -30,5 +30,4 @@
 		tb_ref=#{tb_ref} and login_id=#{login_id}
 	</delete>
 
-
 </mapper>  

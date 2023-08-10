@@ -2,6 +2,7 @@ package com.human.web01.Service;
 
 import java.sql.SQLException;
 import java.util.HashMap;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -101,8 +102,7 @@ public class BoardServiceImpl implements BoardService {
 
 	}
 
-	
-    //글 삭제하기
+	// 글 삭제하기
 	@Override
 	public void delete(int idx) {
 		log.info("서비스 delete ({})호출~~", idx);
@@ -114,6 +114,27 @@ public class BoardServiceImpl implements BoardService {
 			e.printStackTrace();
 			log.info("{} 글 삭제 실패!!!", idx);
 		}
+
+	}
+
+	// 좋아요 가져오기
+	@Override
+	public List<BoardVO> selectLike(String loginid) {
+		log.info("서비스 selectLike ({})호출~~", loginid);
+		List<BoardVO>  list = null;
+
+		try {
+
+				list = boardDaO.selectLike(loginid);
+				log.info("{} 좋아요 글 가져오기 성공!!!", list);
+			
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+			log.info("좋아요 글 얻기 실패!!!");
+		}
+		return list;
 
 	}
 

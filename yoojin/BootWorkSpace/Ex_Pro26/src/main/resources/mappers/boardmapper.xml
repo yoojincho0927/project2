@@ -39,7 +39,8 @@
 
 	<!-- 조회수 증가하기 -->
 	<update id="incrementReadCount" parameterType="int">
-		update tb_board set readCount = readCount + 1 where idx=#{idx}
+		update tb_board
+		set readCount = readCount + 1 where idx=#{idx}
 	</update>
 	<!-- 글 저장 -->
 	<!--게시물의 loginid와 loginVO의 loginid와 같으면 저장 가능 -->
@@ -68,36 +69,54 @@
 		content=#{content},
 		create_date=sysdate
 		where
-		loginid = #{loginid} and idx=#{idx}
+		loginid =
+		#{loginid} and idx=#{idx}
 	</update>
 
-	
-	
+
+
 	<!-- 5. 삭제하기 -->
 	<delete id="delete2" parameterType="int">
-		delete from tb_board where idx=#{idx}
-		
+		delete from tb_board where
+		idx=#{idx}
+
 	</delete>
-	
+
 	<!-- 좋아요 수 증가하기 -->
 	<update id="likeCount" parameterType="int">
-		update tb_board set likeCount = likeCount + 1 where idx=#{idx}
+		update tb_board set
+		likeCount = likeCount + 1 where idx=#{idx}
 	</update>
-	
-   <!-- 좋아요 수 감소하기 -->
+
+	<!-- 좋아요 수 감소하기 -->
 	<update id="dislikeCount" parameterType="int">
-		update tb_board set likeCount = likeCount - 1 where idx=#{idx}
+		update tb_board set
+		likeCount = likeCount - 1 where idx=#{idx}
 	</update>
-	
-	
+
+
 	<!-- 좋아요 수 증가하기 -->
 	<update id="scrapCount" parameterType="int">
-		update tb_board set scrapCount = scrapCount + 1 where idx=#{idx}
+		update tb_board set
+		scrapCount = scrapCount + 1 where idx=#{idx}
 	</update>
-	
-   <!-- 좋아요 수 감소하기 -->
+
+	<!-- 좋아요 수 감소하기 -->
 	<update id="scrapless" parameterType="int">
-		update tb_board set scrapCount = scrapCount - 1 where idx=#{idx}
+		update tb_board set
+		scrapCount = scrapCount - 1 where idx=#{idx}
 	</update>
-	
+
+	<!-- 좋아요한 글만 가져오기 -->
+	<select id="selectLike" parameterType="string"
+		resultType="BoardVO">
+		SELECT
+		TB.CONTENT , tb.TITLE
+		FROM
+		TB_BOARD tb, HEART h
+		WHERE
+		tb.IDX = h.TB_REF
+		AND
+		h.LOGIN_ID =#{loginid}
+	</select>
 </mapper>  

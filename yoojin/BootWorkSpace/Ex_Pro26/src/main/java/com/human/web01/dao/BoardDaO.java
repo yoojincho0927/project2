@@ -40,4 +40,6 @@ public interface BoardDaO {
 	void scrapCount(int idx);
 
 	void scrapless(int idx);
+	
+	List<BoardVO> selectLike(String loginid);
 }

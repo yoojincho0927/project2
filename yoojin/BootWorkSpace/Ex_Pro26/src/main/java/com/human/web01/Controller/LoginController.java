@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.human.web01.Service.BoardService;
 import com.human.web01.Service.LoginService;
+import com.human.web01.vo.BoardVO;
 import com.human.web01.vo.LoginVO;
 
 import jakarta.servlet.http.HttpServlet;
@@ -29,12 +31,15 @@ public class LoginController {
 	@Autowired
 	private LoginService loginService;
 
+	@Autowired
+	private BoardService boardService;
+
 	// 회원가입화면
 	@GetMapping(value = "/join")
 	public String join() {
 		return "member/join";
 
-	}                                                    
+	}
 
 	// 저장하기 : Get방식일 경우 리스트로 강제이동 //url 에 직접 때려 넣었을 때 얘기
 	@GetMapping(value = "/insertOk")
@@ -106,6 +111,7 @@ public class LoginController {
 		// 아이디와 비밀번호가 같으면
 		if (loginService.loginCheck(loginVO.getLoginid(), loginVO.getPassword())) {
 			session.setAttribute("loginVO", loginService.selectByUserid(loginVO.getLoginid()));
+			session.setMaxInactiveInterval(60*60);
 			isLogin = true;
 
 		}
@@ -118,7 +124,7 @@ public class LoginController {
 	public String logout(HttpSession session) {
 		// 세션 값 지우기
 		session.removeAttribute("loginVO");
-		return "main/main";
+		return "member/login";
 	}
 
 	@GetMapping(value = "/idFind")
@@ -214,6 +220,16 @@ public class LoginController {
 
 		}
 		return "member/deleteForm";
+	}
+
+	// 좋아요 한 글 보러가기
+	@GetMapping(value = "/like")
+	public String like(@ModelAttribute LoginVO loginVO, Model model) {
+		log.info("넘어온값 loginOk() : {}", loginVO);
+		List<BoardVO>  list = boardService.selectLike(loginVO.getLoginid());
+		model.addAttribute("list", list);
+
+		return "member/like";
 	}
 
 }

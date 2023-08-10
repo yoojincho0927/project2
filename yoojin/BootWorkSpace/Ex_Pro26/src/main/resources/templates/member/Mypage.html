@@ -30,9 +30,15 @@
 		<input type="button" value="돌아가기"  class="btn btn-sm btn-outline-danger" 
 	onclick="history.back();"
 		 />
+		 <script type="text/javascript">
+		 	function gotoURL(){
+		 		location.href='/member/like?loginid=[[${session.loginVO.loginid}]]';
+		 	}
+		 </script>
 		<input type="submit" value=" 수정하기"  class="btn btn-sm btn-outline-danger" />
 		<input type="button" value=" 탈퇴하기" th:onclick="|location.href='@{/member/deleteForm}'|" />
 		<input type="button" value="비밀번호 변경하기"  th:onclick="|location.href='@{/member/passwordUpdate}'|"/>
+		<input type="button" value="좋아요 한 글 보러가기"  onclick="gotoURL()"/>
 
 	</form>
 
